@@ -1,7 +1,43 @@
-body .menu {
-  text-align: center;
-  font-size: 60px;
-  font-family: fantasy;
-  color: azure;
-  text-decoration: none;
+body .menu { 
+  font-size: unset;
+}
+
+.menu-item {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+}
+
+.about {
+  left: 170px;
+  top: 40px;
+}
+
+.contact {
+  left: 237px;
+  top: 40px;
+}
+
+.requisites {
+  left: 310px;
+  top: 40px;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.sub-conteiner {
+  position: absolute;
+  display: none;
+}
+
+.about:hover .sub-conteiner {
+  display: block;
+}
+
+.baner-img {
+  position: absolute;
+  top: 80px;
 }
